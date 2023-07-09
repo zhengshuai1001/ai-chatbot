@@ -2,6 +2,8 @@ import { auth } from '@/auth'
 import { LoginButton } from '@/components/login-button'
 import { redirect } from 'next/navigation'
 
+export const runtime = 'edge'
+
 export default async function SignInPage() {
   const session = await auth()
   // redirect to home if user is already logged in
