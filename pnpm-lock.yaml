@@ -32,7 +32,7 @@ specifiers:
   next: 13.4.7-canary.1
   next-auth: 0.0.0-manual.83c4ebd1
   next-themes: ^0.2.1
-  openai-edge: ^0.5.1
+  openai-edge: ^1.2.2
   postcss: ^8.4.21
   prettier: ^2.7.1
   react: ^18.2.0
@@ -70,7 +70,7 @@ dependencies:
   next: 13.4.7-canary.1_biqbaboplfbrettd7655fr4n2y
   next-auth: 0.0.0-manual.83c4ebd1_ko2khymoxncnp2qhu5wvnfmzci
   next-themes: 0.2.1_e5qmxwuxw7xme2ncv2rjwhnete
-  openai-edge: 0.5.1
+  openai-edge: 1.2.2
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-hot-toast: 2.4.1_biqbaboplfbrettd7655fr4n2y
@@ -112,8 +112,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /@auth/core/0.0.0-manual.8fcd46b0:
-    resolution: {integrity: sha512-KuhvZ0hHz6NvMAgAi+su0dJOD0YAiOWGaLswyfGK5RsG/cdhqyyiII9HOTaZbWZAKir0UGYb8SlN+owhV30JXg==}
+  /@auth/core/0.0.0-manual.59d8da33:
+    resolution: {integrity: sha512-ZTaUedTobGEvQPhEeJLmnsdGbztG10T0rK8TA4wH87Eb8oBHInI//3zRngX6T9hEcZ+/OJnIANw0JrGDqUDREA==}
     peerDependencies:
       nodemailer: ^6.8.0
     peerDependenciesMeta:
@@ -3462,7 +3462,7 @@ packages:
       nodemailer:
         optional: true
     dependencies:
-      '@auth/core': 0.0.0-manual.8fcd46b0
+      '@auth/core': 0.0.0-manual.59d8da33
       next: 13.4.7-canary.1_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
     dev: false
@@ -3658,9 +3658,9 @@ packages:
       is-wsl: 2.2.0
     dev: true
 
-  /openai-edge/0.5.1:
-    resolution: {integrity: sha512-/Q/b9wkPKWIzcnsp2o0Of5QW/t4A0XLw+E7rjVSYR3gLVt+pWpFuWCgWPWUVS1UrrLJPvzmndwe1JMpfqLRJIQ==}
-    engines: {node: '>=12'}
+  /openai-edge/1.2.2:
+    resolution: {integrity: sha512-C3/Ao9Hkx5uBPv9YFBpX/x59XMPgPUU4dyGg/0J2sOJ7O9D98kD+lfdOc7v/60oYo5xzMGct80uFkYLH+X2qgw==}
+    engines: {node: '>=18'}
     dev: false
 
   /optionator/0.9.3:
